@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  sonitranslate:
+    image: soni_translate_image
+#    environment:
+#      - YOUR_HF_TOKEN="INSERT_TOKEN_HERE"
+#      - OPENAI_API_KEY="INSERT_TOKEN_HERE"
+    working_dir: /app
+    volumes:
+      - model-data:/app/SoniTranslate/mdx_models
+      - cache-data:/root/.cache
+    ports:
+      - 80:7860
+    command: python app_rvc.py
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+volumes:
+  model-data:
+  cache-data:
