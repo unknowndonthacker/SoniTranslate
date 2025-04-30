@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y ffmpeg
 RUN apt-get install -y python3-pip git
 
 # Clone SoniTranslate repository
-RUN git clone https://github.com/unknowndonthacker/SoniTranslate
+git clone --branch teste https://github.com/unknowndonthacker/SoniTranslate/
 
 # Change to SoniTranslate directory
 WORKDIR /app/SoniTranslate
