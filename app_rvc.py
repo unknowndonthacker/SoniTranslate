@@ -390,17 +390,17 @@ class SoniTranslate(SoniTrCache):
         min_speakers=1,
         max_speakers=1,
         tts_voice00="pt-BR-AntonioNeural-Male",
-        tts_voice01="pt-BR-FranciscaNeural-Female",
-        tts_voice02="en-US-AvaMultilingualNeural-Female",
-        tts_voice03="en-US-BrianMultilingualNeural-Male",
-        tts_voice04="de-DE-SeraphinaMultilingualNeural-Female",
-        tts_voice05="de-DE-FlorianMultilingualNeural-Male",
-        tts_voice06="fr-FR-VivienneMultilingualNeural-Female",
-        tts_voice07="fr-FR-RemyMultilingualNeural-Male",
-        tts_voice08="en-US-EmmaMultilingualNeural-Female",
-        tts_voice09="en-US-AndrewMultilingualNeural-Male",
-        tts_voice10="en-US-EmmaMultilingualNeural-Female",
-        tts_voice11="en-US-AndrewMultilingualNeural-Male",
+        tts_voice01="pt-BR-AntonioNeural-Male",
+        tts_voice02="pt-BR-AntonioNeural-Male",
+        tts_voice03="pt-BR-AntonioNeural-Male",
+        tts_voice04="pt-BR-AntonioNeural-Male",
+        tts_voice05="pt-BR-AntonioNeural-Male",
+        tts_voice06="pt-BR-AntonioNeural-Male",
+        tts_voice07="pt-BR-AntonioNeural-Male",
+        tts_voice08="pt-BR-AntonioNeural-Male",
+        tts_voice09="pt-BR-AntonioNeural-Male",
+        tts_voice10="pt-BR-AntonioNeural-Male",
+        tts_voice11="pt-BR-AntonioNeural-Male",
         video_output_name="",
         mix_method_audio="Adjusting volumes and mixing audio",
         max_accelerate_audio=2.1,
@@ -1546,77 +1546,77 @@ def create_gui(theme, logs_in_gui=False):
                     )
                     tts_voice01 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="pt-BR-FranciscaNeural-Female",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk2"],
                         visible=True,
                         interactive=True,
                     )
                     tts_voice02 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="en-US-AvaMultilingualNeural-Female",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk3"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice03 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="en-US-BrianMultilingualNeural-Male",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk4"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice04 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="de-DE-SeraphinaMultilingualNeural-Female",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk4"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice05 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="de-DE-FlorianMultilingualNeural-Male",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk6"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice06 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="fr-FR-VivienneMultilingualNeural-Female",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk7"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice07 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="fr-FR-RemyMultilingualNeural-Male",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk8"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice08 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="en-US-EmmaMultilingualNeural-Female",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk9"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice09 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="en-US-AndrewMultilingualNeural-Male",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk10"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice10 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="en-US-EmmaMultilingualNeural-Female",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk11"],
                         visible=False,
                         interactive=True,
                     )
                     tts_voice11 = gr.Dropdown(
                         SoniTr.tts_info.tts_list(),
-                        value="en-US-AndrewMultilingualNeural-Male",
+                        value="pt-BR-AntonioNeural-Male",
                         label=lg_conf["sk12"],
                         visible=False,
                         interactive=True,
